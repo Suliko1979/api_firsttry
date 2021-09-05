@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>API Display</title>
+</head>
+<body>
+    <h1>List of users</h1>
+    {% for user in response %}
+    <strong> Name: {{user.name}} email: {{user.email}};<br></strong>
+    {% endfor %}
+</body>
+</html>
